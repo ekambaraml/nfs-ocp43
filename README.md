@@ -22,6 +22,7 @@ For more help https://github.com/ekambaraml/nfs-ocp43/blob/master/Local-nfsserve
 
 ## Create Deployment
 update the deployment.yaml with NFS server IP address and path
+
 `oc -n nfs-fs create -f deployment.yaml`
 
 
