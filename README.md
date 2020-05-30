@@ -1,5 +1,5 @@
 
-# NFS Storage provisioner Setup and OpenShift 4.3 Registry Storage
+# NFS Storage provisioner and OpenShift 4.3 Registry Storage Setup 
 
 #### Assumption:
 - NFS server is setup and exported the share to this OpenShift Cluster nodes
