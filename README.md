@@ -1,6 +1,11 @@
 
-# NFS Storage provisioner Setup and Updating OpenShift 4.3 Registry Storage
+# NFS Storage provisioner Setup and OpenShift 4.3 Registry Storage
 
+#### Assumption:
+- NFS server is setup and exported the share to this OpenShift Cluster nodes
+- NFS share has r/w permission to this cluster
+
+For more help <url>
 
 ## Create a new project for NFS
 
@@ -16,6 +21,7 @@
 `oc -n nfs-fs create -f class.yaml`
 
 ## Create Deployment
+update the deployment.yaml with NFS server IP address and path
 `oc -n nfs-fs create -f deployment.yaml`
 
 
