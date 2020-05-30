@@ -5,7 +5,7 @@
 - NFS server is setup and exported the share to this OpenShift Cluster nodes
 - NFS share has r/w permission to this cluster
 
-For more help <url>
+For more help https://github.com/ekambaraml/nfs-ocp43/blob/master/Local-nfsserver-setup.md
 
 ## Create a new project for NFS
 
