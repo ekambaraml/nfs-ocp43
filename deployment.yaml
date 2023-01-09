@@ -31,11 +31,11 @@ spec:
             - name: PROVISIONER_NAME
               value: nfs/provisioner
             - name: NFS_SERVER
-              value: << IP ADDRESS OF NFS SERVER VM>>
+              value: NFS_SERVER_IP
             - name: NFS_PATH
-              value: /var/nfs/general
+              value: /data
       volumes:
         - name: nfs-client-root
           nfs:
-            server: << IP ADDRESS OF NFS SERVER VM>>
-            path: /var/nfs/general
+            server: NFS_SERVER_IP
+            path: /data
